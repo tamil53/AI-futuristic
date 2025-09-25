@@ -57,7 +57,7 @@
     margin-left: 300px;
     box-shadow: 10px 10px 14px rgb(2, 1, 1);
     border-radius: 10px;
-    font-size: 19px;
+    font-size: 20px;
 }
 .btn:hover{
     background-color: white;
@@ -104,4 +104,3 @@ p{
     font-weight: bold;
     font-size: 20px;
 }
-
