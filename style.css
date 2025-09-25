@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ header .head{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 249, 249);
+    justify-content: space-between;
+
+}
+.logo{
+ font-weight: bold;
+ font-size: 40px;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav-links li a{
+ box-shadow: 0px 2px 8px;
+ border-radius: 5px;
+ padding-bottom: 4px;
+ text-decoration: none;
+ background-color: aliceblue;
+} 
+.nav-links li a:hover{
+    background-color: rgb(248, 149, 20);
+}
+.hero-section{
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+
+}
+.heading{
+    color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    height: 450px;
+    font-size: 40px;
+    padding-left: 450px;
+    text-align: center;
+}
+.btn{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    height: 25px;
+    width: 100px;
+    background-color: rgb(2, 145, 14);
+    margin-left: 300px;
+    box-shadow: 10px 10px 14px rgb(2, 1, 1);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.features{
+ text-align: center;
+padding: 20px 20px ;
+margin-bottom: 40px;
+}
+.future-grid{
+    display: flex;
+    gap: 60px;
+    justify-content:center;
+    background-image: url();
+    flex-wrap: wrap
+}
+.future img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.future{
+    border-radius: 10px;
+    box-shadow: 0px 10px 14px;
+    background-color: white;
+    padding: 24px;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.footer{
+display: flex;
+gap: 20px;
+align-items: center;
+padding-left: 500px;
+margin-top: 40px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
